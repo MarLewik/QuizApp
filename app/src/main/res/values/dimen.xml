@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="square_baseline">8dp</dimen>
+    <dimen name="square_baseline_double">16dp</dimen>
+    <dimen name="row_margin">8dp</dimen>
+    <dimen name="answer_padding">8dp</dimen>
+</resources>

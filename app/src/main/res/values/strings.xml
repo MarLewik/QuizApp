@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="quiz_name">Java Basics Quiz</string>
+    <string name="question_1">1. Select which of the following points represents the correct declaration of the int type.\n
+                  Choose one or more answer:</string>
+    <string name="answer_1a">x = 15;</string>
+    <string name="answer_1b">double number;</string> <!--ok-->
+    <string name="answer_1c">integer a;</string>
+    <string name="answer_1d">int number;</string> <!--ok-->
+    <string name="question_2">2. Enter the name of the method from which each program written in Java starts</string>
+    <string name="answer_2eg">(include case, do not give its arguments)</string>
+    <string name="answer_2">main</string>
+    <string name="question_3">3. Select in which responses the variables or constants according to the naming convention in Java are presented.\n
+                              Choose one or more:</string>
+    <string name="answer_3a">double decimalnumber;</string>
+    <string name="answer_3b">final String applicationName;</string> <!--ok-->
+    <string name="answer_3c">int SomeNumber;</string>
+    <string name="answer_3d">long veryBigNumber;</string> <!--ok-->
+    <string name="question_4">4. Select statements that are true\n
+                              Choose one or more:</string>
+    <string name="answer_4a">The final variables are marked with the final keyword</string>  <!--ok-->
+    <string name="answer_4b">The variable final value can be assigned several times, provided that the value is the same as before</string>
+    <string name="answer_4c">The final variables are those that can not be assigned a value</string>
+    <string name="answer_4d">The final variable can only be assigned once</string> <!--ok-->
+    <string name="question_5">5. Select in which responses the correct initialization of variables is presented\n
+                              Choose one answer:</string>
+    <string name="answer_5a">String letter = \'a\';</string>
+    <string name="answer_5b">int y = 5, double y = 2.5;</string>
+    <string name="answer_5c">String name = "John Smith";</string> <!--ok-->
+    <string name="answer_5d">int x;</string>
+    <string name="question_6">6. What will the result of calling the following code be?\n
+                              public class Test {\n
+                              public static void main(String[] args) {\n
+                              int a = 5;\n
+                              int b = 2;\n
+                              System.out.println(a/b);\n
+                              }\n
+                              Enter number:</string> <!--2-->
+    <string name="answer_6eg">e.g. 2 or 3 or maybe 10</string>
+    <string name="question_7">7. What command is used to compile a program written in Java\n
+                              Choose one answer:</string>
+    <string name="answer_7a">cd</string>
+    <string name="answer_7b">java</string>
+    <string name="answer_7c">javac</string>
+    <string name="finish">Finish</string>
 </resources>

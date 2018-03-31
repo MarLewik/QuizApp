@@ -3,9 +3,38 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
     </style>
+
+    <style name="Quiz_headder">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:paddingTop">@dimen/square_baseline</item>
+        <item name="android:paddingBottom">@dimen/square_baseline</item>
+        <item name="android:paddingLeft">@dimen/square_baseline</item>
+        <item name="android:paddingRight">@dimen/square_baseline</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">22sp</item>>
+    </style>
+    <style name="Quiz_body">
+        <item name="android:paddingTop">@dimen/square_baseline_double</item>
+        <item name="android:paddingBottom">@dimen/square_baseline_double</item>
+        <item name="android:paddingLeft">@dimen/square_baseline_double</item>
+        <item name="android:paddingRight">@dimen/square_baseline_double</item>
+    </style>
+    <style name="Question">
+        <item name="android:layout_marginBottom">@dimen/row_margin</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">20sp</item>>
+    </style>>
+    <style name="Answer_LinearLayout">
+        <item name="android:paddingLeft">@dimen/answer_padding</item>
+        <item name="android:paddingBottom">@dimen/square_baseline_double</item>
+    </style>>
+    <style name="Answer">
+        <item name="android:paddingLeft">@dimen/answer_padding</item>
+    </style>>
 
 </resources>
