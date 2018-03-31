@@ -26,7 +26,7 @@
                               Choose one answer:</string>
     <string name="answer_5a">String letter = \'a\';</string>
     <string name="answer_5b">int y = 5, double y = 2.5;</string>
-    <string name="answer_5c">String name = "John Smith";</string> <!--ok-->
+    <string name="answer_5c">String name = \"John Smith\";</string> <!--ok-->
     <string name="answer_5d">int x;</string>
     <string name="question_6">6. What will the result of calling the following code be?\n
                               public class Test {\n

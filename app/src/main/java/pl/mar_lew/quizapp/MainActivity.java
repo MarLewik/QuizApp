@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         if (!((CheckBox) findViewById(R.id.answer_1a)).isChecked()
                 && ((CheckBox) findViewById(R.id.answer_1b)).isChecked()
                 && !((CheckBox) findViewById(R.id.answer_1c)).isChecked()
-                && !((CheckBox) findViewById(R.id.answer_1d)).isChecked()
+                && ((CheckBox) findViewById(R.id.answer_1d)).isChecked()
                 ) SCORE=SCORE+1;
     }
 
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
     private void getScoreQuestion3() {
         if (!((CheckBox) findViewById(R.id.answer_3a)).isChecked()
                 && ((CheckBox) findViewById(R.id.answer_3b)).isChecked()
-                && ((CheckBox) findViewById(R.id.answer_3c)).isChecked()
-                && !((CheckBox) findViewById(R.id.answer_3d)).isChecked()) SCORE=SCORE+1;
+                && !((CheckBox) findViewById(R.id.answer_3c)).isChecked()
+                && ((CheckBox) findViewById(R.id.answer_3d)).isChecked()) SCORE=SCORE+1;
     }
 
 
@@ -84,5 +84,6 @@ public class MainActivity extends AppCompatActivity {
         if (SCORE>2 && SCORE<5) ScoreText = "You scored: " + SCORE + "/" + MAX_POINTS + "\n" + "Very good";
         if (SCORE>=5) ScoreText = "You scored: " + SCORE + "/" + MAX_POINTS + "\n" + "You are the best";
         Toast.makeText(getApplicationContext(), ScoreText, Toast.LENGTH_LONG).show();
+        SCORE=0;
     }
 }
